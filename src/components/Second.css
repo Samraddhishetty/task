@@ -1,0 +1,31 @@
+
+
+.carousel{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.item{
+    border:1px solid black;
+}
+.card-text{
+    padding: 10px;
+}
+
+.images{
+    width: 50%;
+    height: 80%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+
+    .hello{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+
+}
+

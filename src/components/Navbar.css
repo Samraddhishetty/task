@@ -1,0 +1,45 @@
+.navigation{
+    background: #FFF;
+}
+
+.bpe{
+    display: flex;
+}
+
+.btn{
+    border-radius: 25px;
+border: 1px solid #0391D3;
+background: #0391D3;
+color: white;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    justify-content: space-between;
+}
+
+.main_cards{
+    gap:30px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px){
+    .btn{
+        width: 150px;
+    }
+
+    .col{
+        font-size: 15px;
+    }
+
+    .bpe{
+        font-size: 15px;
+    }
+
+    .main_cards {
+        gap:50px;
+    }
+}

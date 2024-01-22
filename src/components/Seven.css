@@ -1,0 +1,54 @@
+.card-title{
+    color: #4E4E4E;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: 30px; /* 166.667% */
+}
+
+.main-section{
+    position: relative;
+}
+
+.Boy-image{
+    position: absolute;
+    top: -52px;
+    right: 117px !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+    .second{
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .first{
+        text-align: center;
+        margin-top: -38px;
+
+    }
+
+    .mains{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .Third{
+        margin-top: 70px;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px){
+   .second{
+    margin-top: 70px;
+   } 
+
+   .Third{
+    margin-top: 70px;
+
+   }
+
+}
